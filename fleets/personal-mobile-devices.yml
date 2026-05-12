@@ -18,6 +18,11 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "📱🔐 Personal mobile devices"
 controls:
+
+ ipados_updates:
+  deadline: "2026-07-30"
+  minimum_version: "26.2"
+
   setup_experience:
     ###########################################################
     # Uncomment to use single-sign on (SSO) to authenticate
