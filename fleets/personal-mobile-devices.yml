@@ -113,3 +113,14 @@ labels:
     description: Hosts belonging to the C-suite
     label_membership_type: manual
     hosts:
+
+controls:
+  apple_settings:
+    configuration_profiles:
+      - path: ../platforms/ios/configuration-profiles/passcode-settings.json
+        labels_exclude_any:
+          - C-Suite
+
+controls:
+  scripts:
+    - paths: ../platforms/windows/scripts/*.ps1
