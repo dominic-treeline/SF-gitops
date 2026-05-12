@@ -26,9 +26,16 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: Treeline
+    org_name: Treeline AI
+
+  
+
 
   server_settings:
+    webhook_settings:
+      activities_webook:
+      enable_activities_webhook: true
+      destination_url: webhook.site URL here
     ###########################################################
     # The server URL where Fleet is running.
     #
@@ -37,6 +44,7 @@ org_settings:
     # configurations.
     ###########################################################
     server_url: $FLEET_URL
+    
 
   ###########################################################
   # Uncomment to use single sign-on (SSO) for admins accessing Fleet.
