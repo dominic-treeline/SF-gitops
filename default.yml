@@ -28,10 +28,10 @@ org_settings:
     ###########################################################
     org_name: Treeline AI
 
-  webhook_settings:
-      activities_webhook:
-        enable_activities_webhook: true
-        destination_url: webhook.site https://domifleet.com
+webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://domifleet.com
 
   server_settings:
     ###########################################################
