@@ -84,7 +84,7 @@ software:
       self_service: false
   fleet_maintained_apps:
     slug: box-drive/darwin
-    self-service: true
+    self_service: true
   app_store_apps:
     ###########################################################
     # iOS apps
